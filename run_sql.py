@@ -91,10 +91,14 @@ def main() -> None:
     else:
         print("Error: Could not connect to database.")
         exit(1)
+
+    print(movies)
         
     conn.close()
 
     return None
+
+
 
 
 if __name__ == "__main__":
